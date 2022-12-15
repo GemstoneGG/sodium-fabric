@@ -21,4 +21,4 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: build/libs/*[0-9].jar
+          files: build/libs
